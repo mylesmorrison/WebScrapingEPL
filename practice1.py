@@ -1,11 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 
-<<<<<<< HEAD
 #Using simple requests to get information about quotes on the quotes.toscrape website
 
-=======
->>>>>>> origin/main
 page_to_scrape = requests.get("http://quotes.toscrape.com")
 soup = BeautifulSoup(page_to_scrape.text, "html.parser")
 
